@@ -1,0 +1,19 @@
+# Agent / editor scratch
+.claude/
+.serena/
+CLAUDE.md
+
+# .NET / C#
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

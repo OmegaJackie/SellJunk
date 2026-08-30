@@ -1,0 +1,12 @@
+{
+  "Author": "Jackie",
+  "Name": "SellJunk",
+  "InternalName": "SellJunk",
+  "Punchline": "One click to clear vendor-replaceable clutter out of your bags",
+  "Description": "Flags inventory items as junk when they are re-buyable from an NPC vendor under a gil threshold AND are either low-level/untimed gathering node drops or only used in below-max-level crafts. Sells them to any open shop on a single confirmed click, and retrieves matching junk out of your retainers at a summoning bell.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "",
+  "Tags": [ "inventory", "vendor", "sell", "junk", "retainer" ],
+  "LoadRequiredState": 0,
+  "CanUnloadAsync": false
+}

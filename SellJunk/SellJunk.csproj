@@ -1,0 +1,25 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+
+  <!--
+    SellJunk is a Dalamud plugin. The Dalamud.NET.Sdk resolves the reference
+    assemblies (Dalamud, Lumina, Lumina.Excel, FFXIVClientStructs, ImGui) from
+    %AppData%\XIVLauncher\addon\Hooks\dev and sets net10.0-windows + AllowUnsafeBlocks.
+
+    Pinned against: Dalamud API 15 / FFXIVClientStructs 7.51 / Lumina.Excel 7.0.
+
+    Deliberately has NO third-party project references (no ECommons) so the plugin
+    is self-contained and can be moved or shared without dragging a sibling repo along.
+  -->
+
+  <!--
+    TargetFramework, Nullable, LangVersion, Platforms, PlatformTarget and AllowUnsafeBlocks
+    are all set by Sdk.props - redeclaring them here is how projects accidentally drop the
+    "-windows" half of the TFM. Only the version is ours.
+  -->
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+</Project>
